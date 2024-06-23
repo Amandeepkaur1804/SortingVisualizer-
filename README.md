@@ -11,6 +11,7 @@ Sorting Algorithms: The visualizer supports a range of sorting algorithms, inclu
 3. Insertion Sort
 4. Merge Sort
 5. Radix Sort
+6. Quick Sort
 
 Real-Time Visualization: Watch sorting algorithms in action as the visualizer animates the sorting process in real-time.
 
