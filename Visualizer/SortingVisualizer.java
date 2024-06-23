@@ -93,6 +93,15 @@ public class SortingVisualizer {
                     sortingThread = new Thread(new InsertionSort(toBeSorted, frame, true));
                     break;
 
+                case "Quick":
+                    sortingThread = new Thread(new QuickSort(toBeSorted, frame, false));
+                    break;
+
+                // Added case for Quick Sort (fast)
+                case "Quick(fast)":
+                    sortingThread = new Thread(new QuickSort(toBeSorted, frame, true));
+                    break;
+                    
                 default:
                     isSorting = false;
                     return;
